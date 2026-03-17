@@ -1,0 +1,18 @@
+# Catppuccin Mocha Theme
+theme = catppuccin-mocha.conf
+font-family = MesloLGM Nerd Font Mono
+font-size = 12
+
+# Ctrl+C und Ctrl+V für Copy/Paste
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+
+# Window Decoration Fix - NEU!
+window-decoration = false
+gtk-titlebar = false
+
+# Blur Effekt 
+window-padding-x = 10
+window-padding-y = 10
+background-opacity = 0.95
+
