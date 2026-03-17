@@ -14,12 +14,11 @@ find "$DOWNLOADS" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -i
     echo "Verschoben: $(basename "$img")"
 done
 
-echo ""
-echo "==> Alte Dateien (älter als ${ALT_TAGE} Tage) verschieben..."
+echo "==> Alte Dateien verschieben..."
 find "$DOWNLOADS" -maxdepth 1 -type f -mtime +$ALT_TAGE | while read -r f; do
     mv "$f" "$ALT/"
     echo "Verschoben: $(basename "$f")"
 done
 
-echo ""
+notify-send -t 4000 "Downloads" "Aufgeräumt! Bilder → Bilder, Alte Dateien → Alte Dateien ✓"
 echo "==> Fertig!"
