@@ -5,10 +5,8 @@ mkdir -p "$DOTFILES"
 
 # Configs die du sichern willst
 declare -A CONFIGS=(
-    ["$HOME/.config/MangoWM"]="config/MangoWM"
     ["$HOME/.config/fish"]="config/fish"
     ["$HOME/.config/ghostty"]="config/ghostty"
-    ["$HOME/.config/brave-flags.conf"]="config/brave-flags.conf"
     ["$HOME/.local/bin"]="local/bin"
 )
 
