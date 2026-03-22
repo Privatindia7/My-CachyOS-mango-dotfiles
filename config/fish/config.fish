@@ -14,7 +14,10 @@ set -x WLR_NO_HARDWARE_CURSORS 1
 if status is-login
     and test -z "$WAYLAND_DISPLAY"
     and test (tty) = /dev/tty1
+    # kwallet vor MangoWM initialisieren
+
+
     exec mango
 end
 
-
+alias update='paru -Syu && notify-send -t 4000 "Update" "System aktualisiert ✓"'
