@@ -2,7 +2,8 @@
 
 DOTFILES="$HOME/dotfiles"
 
-cp -r ~/.config/fish/* "$DOTFILES/config/fish/"
+cp ~/.zshrc "$DOTFILES/zshrc"
+cp ~/.zprofile "$DOTFILES/zprofile"
 cp -r ~/.config/ghostty/* "$DOTFILES/config/ghostty/"
 cp ~/.local/bin/*.sh "$DOTFILES/local/bin/"
 

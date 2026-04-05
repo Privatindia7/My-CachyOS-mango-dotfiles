@@ -1,5 +1,5 @@
 # Catppuccin Mocha Theme
-theme = catppuccin-mocha.conf
+theme = Catppuccin Mocha
 font-family = MesloLGM Nerd Font Mono
 font-size = 12
 
@@ -14,5 +14,6 @@ gtk-titlebar = false
 # Blur Effekt 
 window-padding-x = 10
 window-padding-y = 10
-background-opacity = 0.95
+background-opacity = 0.85
 
+command = /bin/zsh

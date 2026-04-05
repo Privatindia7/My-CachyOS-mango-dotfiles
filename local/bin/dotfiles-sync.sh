@@ -5,7 +5,8 @@ mkdir -p "$DOTFILES"
 
 # Configs die du sichern willst
 declare -A CONFIGS=(
-    ["$HOME/.config/fish"]="config/fish"
+    ["$HOME/.zshrc"]="zshrc"
+    ["$HOME/.zprofile"]="zprofile"
     ["$HOME/.config/ghostty"]="config/ghostty"
     ["$HOME/.local/bin"]="local/bin"
 )
