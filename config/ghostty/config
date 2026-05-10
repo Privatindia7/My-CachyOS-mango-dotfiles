@@ -1,5 +1,5 @@
 # --- LOOK & FEEL ---
-window-decoration = false
+window-decoration = true
 theme = "Aizen Dark"
 font-family = "Monospace"
 font-size = 11

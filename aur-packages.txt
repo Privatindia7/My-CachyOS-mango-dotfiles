@@ -1,0 +1,14 @@
+accounts-qml-module
+bottles
+fvs2
+jdupes
+launcher-studio
+lib32-gst-plugins-base-libs
+lib32-gstreamer
+libjodycode
+noctalia
+proton-ge-custom-bin
+ripdrag
+ryzenadj
+splix
+visual-studio-code-bin
